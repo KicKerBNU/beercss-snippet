@@ -1,0 +1,283 @@
+{
+	"BeerCss Badge": {
+		"prefix": "badge",
+		"body": [
+			"a",
+			"  span.badge New",
+			"  i search"
+		],
+		"description": "Badge Class"
+	},
+	"Beercss Button": {
+		"prefix": "button",
+		"body": [
+			"button Button"
+		],
+		"description": "Badge Class"
+	},
+	"BeerCss Card": {
+		"prefix": "card",
+		"body": [
+			".card.left-round",
+			"  h5 Title",
+			"  div Complementary text"
+		],
+		"description": "BeerCss Card"
+	},
+	"BeerCss Checkbox": {
+		"prefix": "checkbox",
+		"body": [
+			"div.field.middle-align",
+			"  nav",
+			"    label.checkbox",
+			"      input(type='checkbox')",
+			"      span Item 1",
+			"    label.checkbox",
+			"      input(type='checkbox')",
+			"      span Item 2",
+			"    label.checkbox",
+			"      input(type='checkbox')",
+			"      span Item 3"
+		],
+		"description": "BeerCss Checkbox"
+	},
+	"BeerCss Chip": {
+		"prefix": "chip",
+		"body": [
+			"a.chip Chip"
+		],
+		"description": "BeerCss Chip"
+	},
+	"BeerCss Dropdown": {
+		"prefix": "dropdown",
+		"body": [
+			"button(data-ui='#dropdown1_')",
+			"  span This is a large button",
+			"  i arrow_drop_down",
+			"  #dropdown1_.dropdown(data-ui='#dropdown1_')",
+			"    a Title",
+			"    a",
+			"      div Title",
+			"      label Complementary text",
+			"    a.row.no-wrap.middle-align",
+			"      .col.min",
+			"        i home",
+			"      .col Title",
+			"    a.row.no-wrap.middle-align",
+			"      .col.min",
+			"        i home",
+			"      .col",
+			"        div Title",
+			"        label Complementary text",
+		],
+		"description": "BeerCss Dropdown"
+	},
+	"BeerCss Icon": {
+		"prefix": "icon",
+		"body": [
+			"nav.wrap",
+			"  i.small home",
+		],
+		"description": "BeerCss Icon"
+	},
+	"BeerCss Input": {
+		"prefix": "input",
+		"body": [
+			"div.field",
+			"  input(type='text')",
+		],
+		"description": "BeerCss Input"
+	},
+	"BeerCss List": {
+		"prefix": "list",
+		"body": [
+			".row.no-wrap.middle-align",
+			"  .col.min",
+			"    i.light-green-text check_circle",
+			"  .col",
+			"    div Title",
+			"    label Complementary text",
+			"  .col.min",
+			"    nav",
+			"      button.none Button",
+			"      button.none",
+			"        i more_vert"
+		],
+		"description": "BeerCss List"
+	},
+	"BeerCss Loader": {
+		"prefix": "loader",
+		"body": [
+			"a.loader.small"
+		],
+		"description": "BeerCss Loader"
+	},
+	"BeerCss Modal": {
+		"prefix": "modal",
+		"body": [
+			"#modal_.modal",
+			"  h5 Title",
+			"  div Complementary text",
+			"  nav",
+			"    button.none Default",
+			"    button.none Left",
+			"    button.none Right",
+			"    button.none Top",
+			"    button.none Bottom",
+			"    button.none(data-ui='#modal_') Close",
+		],
+		"description": "BeerCss Modal"
+	},
+	"BeerCss Nav": {
+		"prefix": "nav",
+		"body": [
+			"nav",
+			"  button Button",
+			"  a.chip Chip",
+			"  i home",
+		],
+		"description": "BeerCss Nav"
+	},
+	"BeerCss Radio": {
+		"prefix": "radio",
+		"body": [
+			".field.middle-align",
+			"  nav",
+			"    label.radio",
+			"      input(type='radio' name='radio')",
+			"      span Item 1",
+			"    label.radio",
+			"      input(type='radio' name='radio')",
+			"      span Item 2",
+			"    label.radio",
+			"      input(type='radio' name='radio')",
+			"      span Item 3"
+		],
+		"description": "BeerCss Radio"
+	},
+	"BeerCss Row": {
+		"prefix": "row",
+		"body": [
+			".row",
+			"  .col.s12 1",
+		],
+		"description": "BeerCss Row"
+	},
+	"BeerCss Select": {
+		"prefix": "select",
+		"body": [
+			".field.sufix",
+			"  select",
+			"    option Item 1",
+			"    option Item 2",
+			"    option Item 3",
+			"  i arrow_drop_down",
+		],
+		"description": "BeerCss Select"
+	},
+	"BeerCss Switch": {
+		"prefix": "switch",
+		"body": [
+			".field.middle-align",
+			"  nav",
+			"    label.switch",
+			"      input(type='checkbox')",
+			"      span Item 1",
+			"    label.switch",
+			"      input(type='checkbox')",
+			"      span Item 2",
+			"    label.switch",
+			"      input(type='checkbox')",
+			"      span Item 3",
+		],
+		"description": "BeerCss Switch"
+	},
+	"BeerCss Table": {
+		"prefix": "table",
+		"body": [
+			"table.border",
+			"  thead",
+			"    tr",
+			"      th",
+			"      th Column 1",
+			"      th Column 2",
+			"      th Column 3",
+			"      th",
+			"  tbody",
+			"    tr",
+			"      td",
+			"        label.checkbox",
+			"          input(type='checkbox')",
+			"          span",
+			"      td Line 1",
+			"      td Line 1",
+			"      td Line 1",
+			"      td",
+			"        nav.right-align",
+			"          button.none Button",
+			"          button.none",
+			"            i more_vert",
+			"    tr",
+			"      td",
+			"        label.checkbox",
+			"          input(type='checkbox')",
+			"          span",
+			"      td Line 2",
+			"      td Line 2",
+			"      td Line 2",
+			"      td",
+			"        nav.right-align",
+			"          button.none Button",
+			"          button.none",
+			"            i more_vert",
+			"    tr",
+			"      td",
+			"        label.checkbox",
+			"          input(type='checkbox')",
+			"          span",
+			"      td Line 3",
+			"      td Line 3",
+			"      td Line 3",
+			"      td",
+			"        nav.right-align",
+			"          button.none Button",
+			"          button.none",
+			"            i more_vert",
+		],
+		"description": "BeerCss Table"
+	},
+	"BeerCss Tab": {
+		"prefix": "tab",
+		"body": [
+			"div",
+			"  .tabs",
+			"    a.active(data-ui='#tab1_') Tab 1",
+			"    a(data-ui='#tab2_') Tab 2",
+			"    a(data-ui='#tab3_') Tab 3",
+			"  #tab1_.page.padding.active",
+			"    h5 Tab 1",
+			"  #tab2_.page.padding",
+			"    h5 Tab 2",
+			"  #tab3_.page.padding",
+			"    h5 Tab 3",
+		],
+		"description": "BeerCss Tab"
+	},
+	"BeerCss Textarea": {
+		"prefix": "textarea",
+		"body": [
+			".field.textarea",
+			"  textarea"
+		],
+		"description": "BeerCss Textarea"
+	},
+	"BeerCss Toast": {
+		"prefix": "toast",
+		"body": [
+			"div.toast.pink.white-text",
+			"  i error",
+			"  span Complementary text"
+		],
+		"description": "BeerCss Toast"
+	}
+}

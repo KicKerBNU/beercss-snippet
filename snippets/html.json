@@ -1,0 +1,358 @@
+{
+	"BeerCss Badge": {
+		"prefix": "badge",
+		"body": [
+			"<a>",
+			"  <span class=\"badge\">New</span>",
+			"  <i>search</i>",
+			"</a>"
+		],
+		"description": "Badge Class"
+	},
+	"BeerCss Button": {
+		"prefix": "button",
+		"body": [
+			"<button>Button</button>",
+			"",
+			""
+		],
+		"description": "BeerCss Button"
+	},
+	"BeerCss Card": {
+		"prefix": "card",
+		"body": [
+			"<div class=\"card left-round\">",
+			"  <h5>Title</h5>",
+			"  <div>Complementary text</div>",
+			"</div>",
+			"",
+			""
+		],
+		"description": "BeerCss Card"
+	},
+	"BeerCss Checkbox": {
+		"prefix": "checkbox",
+		"body": [
+			"<div class=\"field middle-align\">",
+			"  <nav>",
+			"    <label class=\"checkbox\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 1</span>",
+			"    </label>",
+			"    <label class=\"checkbox\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 2</span>",
+			"    </label>",
+			"    <label class=\"checkbox\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 3</span>",
+			"    </label>",
+			"  </nav>",
+			"</div>"
+		],
+		"description": "BeerCss Checkbox"
+	},
+	"BeerCss Chip": {
+		"prefix": "chip",
+		"body": [
+			"<a class=\"chip\">Chip</a>"
+		],
+		"description": "BeerCss Chip"
+	},
+	"BeerCss Dropdown": {
+		"prefix": "dropdown",
+		"body": [
+			"<button data-ui=\"#dropdown1_\">",
+			"  <span>This is a large button</span>",
+			"  <i>arrow_drop_down</i>",
+			"  <div id=\"dropdown1_\" data-ui=\"#dropdown1_\" class=\"dropdown\">",
+			"    <a>Title</a>",
+			"    <a>",
+			"      <div>Title</div>",
+			"      <label>Complementary text</label>",
+			"    </a>",
+			"    <a class=\"row no-wrap middle-align\">",
+			"      <div class=\"col min\">",
+			"        <i>home</i>",
+			"      </div>",
+			"      <div class=\"col\">Title</div>",
+			"    </a>",
+			"    <a class=\"row no-wrap middle-align\">",
+			"      <div class=\"col min\">",
+			"        <i>home</i>",
+			"      </div>",
+			"      <div class=\"col\">",
+			"        <div>Title</div>",
+			"        <label>Complementary text</label>",
+			"      </div>",
+			"    </a>",
+			"  </div>",
+			"</button>"
+		],
+		"description": "BeerCss Dropdown"
+	},
+	"BeerCss Icon": {
+		"prefix": "icon",
+		"body": [
+			"<nav class=\"wrap\">",
+			"  <i class=\"small\">home</i>",
+			"</nav>"
+		],
+		"description": "BeerCss Icon"
+	},
+	"BeerCss Input": {
+		"prefix": "input",
+		"body": [
+			"<div class=\"field\">",
+			"  <input type=\"text\">",
+			"</div>"
+		],
+		"description": "BeerCss Input"
+	},
+	"BeerCss List": {
+		"prefix": "list",
+		"body": [
+			"<div class=\"row no-wrap middle-align\">",
+			"  <div class=\"col min\">",
+			"    <i class=\"light-green-text\">check_circle</i>",
+			"  </div>",
+			"  <div class=\"col\">",
+			"    <div>Title</div>",
+			"    <label>Complementary text</label>",
+			"  </div>",
+			"  <div class=\"col min\">",
+			"    <nav>",
+			"      <button class=\"none\">Button</button>",
+			"      <button class=\"none\">",
+			"        <i>more_vert</i>",
+			"      </button>",
+			"    </nav>",
+			"  </div>",
+			"</div>"
+		],
+		"description": "BeerCss List"
+	},
+	"BeerCss Loader": {
+		"prefix": "loader",
+		"body": [
+			"<a class=\"loader small\"></a>"
+		],
+		"description": "BeerCss Loader"
+	},
+	"BeerCss Modal": {
+		"prefix": "modal",
+		"body": [
+			"<div id=\"modal_\" class=\"modal\">",
+			"  <h5>Title</h5>",
+			"  <div>Complementary text</div>",
+			"  <nav>",
+			"    <button class=\"none\">Default</button>",
+			"    <button class=\"none\">Left</button>",
+			"    <button class=\"none\">Right</button>",
+			"    <button class=\"none\">Top</button>",
+			"    <button class=\"none\">Bottom</button>",
+			"    <button data-ui=\"#modal_\" class=\"none\">Close</button>",
+			"  </nav>",
+			"</div>"
+		],
+		"description": "BeerCss Modal"
+	},
+	"BeerCss Nav": {
+		"prefix": "nav",
+		"body": [
+			"<nav>",
+			"  <button>Button</button>",
+			"  <a class=\"chip\">Chip</a>",
+			"  <i>home</i>",
+			"  <a>",
+			"    <img src=\"/beer-and-woman.jpg\" class=\"circle\">",
+			"  </a>",
+			"</nav>"
+		],
+		"description": "BeerCss Nav"
+	},
+	"BeerCss Radio": {
+		"prefix": "radio",
+		"body": [
+			"<div class=\"field middle-align\">",
+			"  <nav>",
+			"    <label class=\"radio\">",
+			"      <input type=\"radio\" name=\"radio\">",
+			"      <span>Item 1</span>",
+			"    </label>",
+			"    <label class=\"radio\">",
+			"      <input type=\"radio\" name=\"radio\">",
+			"      <span>Item 2</span>",
+			"    </label>",
+			"    <label class=\"radio\">",
+			"      <input type=\"radio\" name=\"radio\">",
+			"      <span>Item 3</span>",
+			"    </label>",
+			"  </nav>",
+			"</div>"
+		],
+		"description": "BeerCss Radio"
+	},
+	"BeerCss Row": {
+		"prefix": "row",
+		"body": [
+			"<div class=\"row\">",
+			"  <div class=\"col s12\">1</div>",
+			"</div>"
+		],
+		"description": "BeerCss Row"
+	},
+	"BeerCss Select": {
+		"prefix": "select",
+		"body": [
+			"<div class=\"field sufix\">",
+			"  <select>",
+			"    <option>Item 1</option>",
+			"    <option>Item 2</option>",
+			"    <option>Item 3</option>",
+			"  </select>",
+			"  <i>arrow_drop_down</i>",
+			"</div>"
+		],
+		"description": "BeerCss Select"
+	},
+	"BeerCss Switch": {
+		"prefix": "switch",
+		"body": [
+			"<div class=\"field middle-align\">",
+			"  <nav>",
+			"    <label class=\"switch\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 1</span>",
+			"    </label>",
+			"    <label class=\"switch\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 2</span>",
+			"    </label>",
+			"    <label class=\"switch\">",
+			"      <input type=\"checkbox\">",
+			"      <span>Item 3</span>",
+			"    </label>",
+			"  </nav>",
+			"</div>"
+		],
+		"description": "BeerCss Switch"
+	},
+	"BeerCss Table": {
+		"prefix": "table",
+		"body": [
+			"<table class=\"border\">",
+			"  <thead>",
+			"    <tr>",
+			"      <th></th>",
+			"      <th>Column 1</th>",
+			"      <th>Column 2</th>",
+			"      <th>Column 3</th>",
+			"      <th></th>",
+			"    </tr>",
+			"  </thead>",
+			"  <tbody>",
+			"    <tr>",
+			"      <td>",
+			"        <label class=\"checkbox\">",
+			"          <input type=\"checkbox\">",
+			"          <span></span>",
+			"        </label>",
+			"      </td>",
+			"      <td>Line 1</td>",
+			"      <td>Line 1</td>",
+			"      <td>Line 1</td>",
+			"      <td>",
+			"        <nav class=\"right-align\">",
+			"          <button class=\"none\">Button</button>",
+			"          <button class=\"none\">",
+			"            <i>more_vert</i>",
+			"          </button>",
+			"        </nav>",
+			"      </td>",
+			"    </tr>",
+			"    <tr>",
+			"      <td>",
+			"        <label class=\"checkbox\">",
+			"          <input type=\"checkbox\">",
+			"          <span></span>",
+			"        </label>",
+			"      </td>",
+			"      <td>Line 2</td>",
+			"      <td>Line 2</td>",
+			"      <td>Line 2</td>",
+			"      <td>",
+			"        <nav class=\"right-align\">",
+			"          <button class=\"none\">Button</button>",
+			"          <button class=\"none\">",
+			"            <i>more_vert</i>",
+			"          </button>",
+			"        </nav>",
+			"      </td>",
+			"    </tr>",
+			"    <tr>",
+			"      <td>",
+			"        <label class=\"checkbox\">",
+			"          <input type=\"checkbox\">",
+			"          <span></span>",
+			"        </label>",
+			"      </td>",
+			"      <td>Line 3</td>",
+			"      <td>Line 3</td>",
+			"      <td>Line 3</td>",
+			"      <td>",
+			"        <nav class=\"right-align\">",
+			"          <button class=\"none\">Button</button>",
+			"          <button class=\"none\">",
+			"            <i>more_vert</i>",
+			"          </button>",
+			"        </nav>",
+			"      </td>",
+			"    </tr>",
+			"  </tbody>",
+			"</table>"
+		],
+		"description": "BeerCss Table"
+	},
+	"BeerCss Tab": {
+		"prefix": "tab",
+		"body": [
+			"<div>",
+			"  <div class=\"tabs\">",
+			"    <a data-ui=\"#tab1_\" class=\"active\">Tab 1</a>",
+			"    <a data-ui=\"#tab2_\">Tab 2</a>",
+			"    <a data-ui=\"#tab3_\">Tab 3</a>",
+			"  </div>",
+			"  <div id=\"tab1_\" class=\"page padding active\">",
+			"    <h5>Tab 1</h5>",
+			"  </div>",
+			"  <div id=\"tab2_\" class=\"page padding\">",
+			"    <h5>Tab 2</h5>",
+			"  </div>",
+			"  <div id=\"tab3_\" class=\"page padding\">",
+			"    <h5>Tab 3</h5>",
+			"  </div>",
+			"</div>"
+		],
+		"description": "BeerCss Tab"
+	},
+	"BeerCss Textarea": {
+		"prefix": "textarea",
+		"body": [
+			"<div class=\"field textarea\">",
+			"  <textarea></textarea>",
+			"</div>"
+		],
+		"description": "BeerCss Textarea"
+	},
+	"BeerCss Toast": {
+		"prefix": "toast",
+		"body": [
+			"<div class=\"toast pink white-text\">",
+			"  <i>error</i>",
+			"  <span>Complementary text</span>",
+			"</div>"
+		],
+		"description": "BeerCss Toast"
+	}
+}
