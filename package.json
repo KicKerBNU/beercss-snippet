@@ -1,9 +1,16 @@
 {
     "name": "beercss-snippet",
-    "publisher": "beercss-snippet",
-    "displayName": "beercss-snippet",
+    "displayName": "Beercss snippets",
     "description": "BeerCss snippet based on documentation",
-    "version": "0.0.1",
+    "icon": "beercss128px.png",
+    "version": "0.0.2",
+    "publisher": "beercss-snippet",
+    "license": "MIT",
+    "homepage": "https://github.com/KicKerBNU/beercss-snippet/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KicKerBNU/beercss-snippet"
+    },   
     "engines": {
         "vscode": "^1.59.0"
     },
@@ -13,8 +20,16 @@
     "contributes": {
         "snippets": [
             {
-                "language": "'html', 'jade', 'vue-html'",
-                "path": "./snippets/snippets.code-snippets"
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/jade.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/vue-html.json"
             }
         ]
     }
