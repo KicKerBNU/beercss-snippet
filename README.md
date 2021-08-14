@@ -1,65 +1,171 @@
-# beercss-snippet README
+# BeerCss snippet for Visual studio code
 
-This is the README for your extension "beercss-snippet". After writing up a brief description, we recommend including the following sections.
+Visual studio code plugin containing BeerCss snippet. This plugin works in Html, Vue Html and Pug(Jade).
 
-## Features
+Feel free to let me know what else you want added via the [issues](https://github.com/KicKerBNU/beercss-snippet/issues)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Suggestions, feedback and other comments welcome via [@EvertonBuzzi](https://twitter.com/evertonbuzzi) on Twitter.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation (in 2 easy steps)
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install plugin
+1. Press `F1`, paste `ext install beercss-snippet-0.0.1-vsix` & then press `enter` (or)
+1. Goto extensions by pressing `Ctrl-Shift-X` (Windows/Linux) or `Cmd-Shift-X` (Mac) & Search for `BeerCss`, click on install
+1. Reload your editor
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+You are good to go
 
-## Requirements
+## Usage
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use the BeerCss snippets, open a HTML file, and start typing `beer-`, followed by pressing `Ctrl+Space`. A list of BeerCss snippets will show up
 
-## Extension Settings
+## Contribution guidelines
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Clone this repo
+2. To modify beercss templates, you can find the templates for each snippet under `../snippets/`. These html templates must follow [vs code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) format.
+3. You can use a snippet generator to make your life easier at [snipet-generator.app] (https://snippet-generator.app/?description=BeerCss+Toast&tabtrigger=toast&snippet=&mode=vscode)
+4. Send me a pull request
 
-For example:
+## Changelog
 
-This extension contributes the following settings:
+See [here](CHANGELOG.md)
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## Documentation
 
-## Known Issues
+Here are available live templates
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### Beercss snippets
 
-## Release Notes
+#### Beercss template
 
-Users appreciate release notes as you update your extension.
+| Trigger    | Description             |
+| ---------- | ----------------------- |
+| beer-**$** | BeerCss master template |
 
-### 1.0.0
+#### Badge
 
-Initial release of ...
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**badge** | BeerCss Badge |
 
-### 1.0.1
+#### Button
 
-Fixed issue #.
+| Trigger         | Description    |
+| --------------- | -------------- |
+| beer-**button** | BeerCss Button |
 
-### 1.1.0
+#### Card
 
-Added features X, Y, and Z.
+| Trigger       | Description  |
+| ------------- | ------------ |
+| beer-**card** | BeerCss Card |
 
------------------------------------------------------------------------------------------------------------
+#### Checkbox
 
-## Working with Markdown
+| Trigger           | Description      |
+| ----------------- | ---------------- |
+| beer-**checkbox** | BeerCss Checkbox |
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+#### Chip
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+| Trigger       | Description  |
+| ------------- | ------------ |
+| beer-**chip** | BeerCss Chip |
 
-### For more information
+#### Dropdown
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+| Trigger           | Description      |
+| ----------------- | ---------------- |
+| beer-**dropdown** | BeerCss Dropdown |
 
-**Enjoy!**
+#### Icon
+
+| Trigger       | Description  |
+| ------------- | ------------ |
+| beer-**icon** | BeerCss Icon |
+
+#### Input
+
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**input** | BeerCss Input |
+
+#### List
+
+| Trigger       | Description  |
+| ------------- | ------------ |
+| beer-**list** | BeerCss List |
+
+#### Loader
+
+| Trigger         | Description    |
+| --------------- | -------------- |
+| beer-**loader** | BeerCss Loader |
+
+#### Modal
+
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**modal** | BeerCss Modal |
+
+#### Nav
+
+| Trigger      | Description |
+| ------------ | ----------- |
+| beer-**nav** | BeerCss Nav |
+
+#### Radio
+
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**radio** | BeerCss Radio |
+
+#### Row
+
+| Trigger      | Description |
+| ------------ | ----------- |
+| beer-**row** | BeerCss Row |
+
+#### Select
+
+| Trigger         | Description    |
+| --------------- | -------------- |
+| beer-**select** | BeerCss Select |
+
+#### Switch
+
+| Trigger         | Description    |
+| --------------- | -------------- |
+| beer-**switch** | BeerCss Switch |
+
+#### Table
+
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**table** | BeerCss Table |
+
+#### Tab
+
+| Trigger      | Description |
+| ------------ | ----------- |
+| beer-**tab** | BeerCss Tab |
+
+#### Text Area
+
+| Trigger           | Description      |
+| ----------------- | ---------------- |
+| beer-**textarea** | BeerCss Textarea |
+
+#### Toast
+
+| Trigger        | Description   |
+| -------------- | ------------- |
+| beer-**toast** | BeerCss Toast |
+
+## About Me
+
+You can connect me with at linkedin @ [https://www.linkedin.com/in/evertonbuzzi/](https://www.linkedin.com/in/evertonbuzzi/)
+
+## License
+
+Beercss - Visual studio code plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

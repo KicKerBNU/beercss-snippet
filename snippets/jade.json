@@ -1,6 +1,6 @@
 {
 	"BeerCss Badge": {
-		"prefix": "badge",
+		"prefix": "beer-badge",
 		"body": [
 			"a",
 			"  span.badge New",
@@ -9,14 +9,14 @@
 		"description": "Badge Class"
 	},
 	"Beercss Button": {
-		"prefix": "button",
+		"prefix": "beer-button",
 		"body": [
 			"button Button"
 		],
 		"description": "Badge Class"
 	},
 	"BeerCss Card": {
-		"prefix": "card",
+		"prefix": "beer-card",
 		"body": [
 			".card.left-round",
 			"  h5 Title",
@@ -25,7 +25,7 @@
 		"description": "BeerCss Card"
 	},
 	"BeerCss Checkbox": {
-		"prefix": "checkbox",
+		"prefix": "beer-checkbox",
 		"body": [
 			"div.field.middle-align",
 			"  nav",
@@ -42,14 +42,14 @@
 		"description": "BeerCss Checkbox"
 	},
 	"BeerCss Chip": {
-		"prefix": "chip",
+		"prefix": "beer-chip",
 		"body": [
 			"a.chip Chip"
 		],
 		"description": "BeerCss Chip"
 	},
 	"BeerCss Dropdown": {
-		"prefix": "dropdown",
+		"prefix": "beer-dropdown",
 		"body": [
 			"button(data-ui='#dropdown1_')",
 			"  span This is a large button",
@@ -68,28 +68,28 @@
 			"        i home",
 			"      .col",
 			"        div Title",
-			"        label Complementary text",
+			"        label Complementary text"
 		],
 		"description": "BeerCss Dropdown"
 	},
 	"BeerCss Icon": {
-		"prefix": "icon",
+		"prefix": "beer-icon",
 		"body": [
 			"nav.wrap",
-			"  i.small home",
+			"  i.small home"
 		],
 		"description": "BeerCss Icon"
 	},
 	"BeerCss Input": {
-		"prefix": "input",
+		"prefix": "beer-input",
 		"body": [
 			"div.field",
-			"  input(type='text')",
+			"  input(type='text')"
 		],
 		"description": "BeerCss Input"
 	},
 	"BeerCss List": {
-		"prefix": "list",
+		"prefix": "beer-list",
 		"body": [
 			".row.no-wrap.middle-align",
 			"  .col.min",
@@ -106,14 +106,14 @@
 		"description": "BeerCss List"
 	},
 	"BeerCss Loader": {
-		"prefix": "loader",
+		"prefix": "beer-loader",
 		"body": [
 			"a.loader.small"
 		],
 		"description": "BeerCss Loader"
 	},
 	"BeerCss Modal": {
-		"prefix": "modal",
+		"prefix": "beer-modal",
 		"body": [
 			"#modal_.modal",
 			"  h5 Title",
@@ -124,22 +124,22 @@
 			"    button.none Right",
 			"    button.none Top",
 			"    button.none Bottom",
-			"    button.none(data-ui='#modal_') Close",
+			"    button.none(data-ui='#modal_') Close"
 		],
 		"description": "BeerCss Modal"
 	},
 	"BeerCss Nav": {
-		"prefix": "nav",
+		"prefix": "beer-nav",
 		"body": [
 			"nav",
 			"  button Button",
 			"  a.chip Chip",
-			"  i home",
+			"  i home"
 		],
 		"description": "BeerCss Nav"
 	},
 	"BeerCss Radio": {
-		"prefix": "radio",
+		"prefix": "beer-radio",
 		"body": [
 			".field.middle-align",
 			"  nav",
@@ -156,27 +156,27 @@
 		"description": "BeerCss Radio"
 	},
 	"BeerCss Row": {
-		"prefix": "row",
+		"prefix": "beer-row",
 		"body": [
 			".row",
-			"  .col.s12 1",
+			"  .col.s12 1"
 		],
 		"description": "BeerCss Row"
 	},
 	"BeerCss Select": {
-		"prefix": "select",
+		"prefix": "beer-select",
 		"body": [
 			".field.sufix",
 			"  select",
 			"    option Item 1",
 			"    option Item 2",
 			"    option Item 3",
-			"  i arrow_drop_down",
+			"  i arrow_drop_down"
 		],
 		"description": "BeerCss Select"
 	},
 	"BeerCss Switch": {
-		"prefix": "switch",
+		"prefix": "beer-switch",
 		"body": [
 			".field.middle-align",
 			"  nav",
@@ -188,12 +188,12 @@
 			"      span Item 2",
 			"    label.switch",
 			"      input(type='checkbox')",
-			"      span Item 3",
+			"      span Item 3"
 		],
 		"description": "BeerCss Switch"
 	},
 	"BeerCss Table": {
-		"prefix": "table",
+		"prefix": "beer-table",
 		"body": [
 			"table.border",
 			"  thead",
@@ -242,12 +242,12 @@
 			"        nav.right-align",
 			"          button.none Button",
 			"          button.none",
-			"            i more_vert",
+			"            i more_vert"
 		],
 		"description": "BeerCss Table"
 	},
 	"BeerCss Tab": {
-		"prefix": "tab",
+		"prefix": "beer-tab",
 		"body": [
 			"div",
 			"  .tabs",
@@ -259,12 +259,12 @@
 			"  #tab2_.page.padding",
 			"    h5 Tab 2",
 			"  #tab3_.page.padding",
-			"    h5 Tab 3",
+			"    h5 Tab 3"
 		],
 		"description": "BeerCss Tab"
 	},
 	"BeerCss Textarea": {
-		"prefix": "textarea",
+		"prefix": "beer-textarea",
 		"body": [
 			".field.textarea",
 			"  textarea"
@@ -272,7 +272,7 @@
 		"description": "BeerCss Textarea"
 	},
 	"BeerCss Toast": {
-		"prefix": "toast",
+		"prefix": "beer-toast",
 		"body": [
 			"div.toast.pink.white-text",
 			"  i error",

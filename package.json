@@ -1,5 +1,6 @@
 {
     "name": "beercss-snippet",
+    "publisher": "beercss-snippet",
     "displayName": "beercss-snippet",
     "description": "BeerCss snippet based on documentation",
     "version": "0.0.1",
