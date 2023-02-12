@@ -9,6 +9,66 @@
 		],
 		"description": "Badge Class"
 	},
+	"BeerCss Badge Round": {
+		"prefix": "beer-badge-round",
+		"body": [
+			"<a>",
+			"  <span class=\"badge round\">New</span>",
+			"  <i>search</i>",
+			"</a>"
+		],
+		"description": "Badge Round Class"
+	},
+	"BeerCss Badge Circle": {
+		"prefix": "beer-badge-circle",
+		"body": [
+			"<a>",
+			"  <span class=\"badge circle\">10</span>",
+			"  <i>notification</i>",
+			"</a>"
+		],
+		"description": "Badge Circle Class"
+	},
+	"BeerCss Badge Square": {
+		"prefix": "beer-badge-square",
+		"body": [
+			"<a>",
+			"  <span class=\"badge square\">10</span>",
+			"  <i>search</i>",
+			"</a>"
+		],
+		"description": "Badge Square Class"
+	},
+	"BeerCss Badge Border": {
+		"prefix": "beer-badge-border",
+		"body": [
+			"<a>",
+			"  <span class=\"badge border\">New</span>",
+			"  <i>help_outline</i>",
+			"</a>"
+		],
+		"description": "Badge Border Class"
+	},
+	"BeerCss Badge Top": {
+		"prefix": "beer-badge-top",
+		"body": [
+			"<a>",
+			"  <span class=\"badge top\">New</span>",
+			"  <i>notification</i>",
+			"</a>"
+		],
+		"description": "Badge Top Class"
+	},
+	"BeerCss Badge Left Top": {
+		"prefix": "beer-badge-left-top",
+		"body": [
+			"<a>",
+			"  <span class=\"badge left top\">New</span>",
+			"  <i>apps</i>",
+			"</a>"
+		],
+		"description": "Badge Left Top Class"
+	},
 	"BeerCss Button": {
 		"prefix": "beer-button",
 		"body": [
