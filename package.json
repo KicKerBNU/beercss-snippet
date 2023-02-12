@@ -3,14 +3,14 @@
     "displayName": "Beercss snippets",
     "description": "BeerCss snippet based on documentation",
     "icon": "beercss128px.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "evertonbuzzi",
     "license": "MIT",
     "homepage": "https://github.com/KicKerBNU/beercss-snippet/blob/master/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/KicKerBNU/beercss-snippet"
-    },   
+    },
     "engines": {
         "vscode": "^1.59.0"
     },
@@ -32,5 +32,8 @@
                 "path": "./snippets/vue-html.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
     }
 }

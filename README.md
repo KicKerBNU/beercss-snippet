@@ -34,6 +34,15 @@ See [here](CHANGELOG.md)
 
 Here are available live templates
 
+## Deploy new version
+
+Login Site: https://marketplace.visualstudio.com/
+User: Github login KicKerBNU
+Url Deploy: https://marketplace.visualstudio.com/manage/publishers/evertonbuzzi
+Only accept VSIX file format..
+vsce package to generate the VSIX file
+vsce publish to publish the new VSIX file
+
 ### Beercss snippets
 
 #### Beercss template
@@ -44,9 +53,17 @@ Here are available live templates
 
 #### Badge
 
-| Trigger        | Description   |
-| -------------- | ------------- |
-| beer-**badge** | BeerCss Badge |
+| Trigger                 | Description            |
+| ----------------------- | ---------------------- |
+| beer-**badge**          | BeerCss Badge          |
+| beer-**badge-round**    | BeerCss Round Badge    |
+| beer-**badge-circle**   | BeerCss Circle Badge   |
+| beer-**badge-square**   | BeerCss Square Badge   |
+| beer-**badge-border**   | BeerCss Border Badge   |
+| beer-**badge-top**      | BeerCss Top Badge      |
+| beer-**badge-border**   | BeerCss Left Top Badge |
+| beer-**badge-top**      | BeerCss Bottom Badge   |
+| beer-**badge-left-top** | BeerCss Left Top       |
 
 #### Button
 
