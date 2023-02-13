@@ -81,14 +81,40 @@
 	"BeerCss Card": {
 		"prefix": "beer-card",
 		"body": [
-			"<div class=\"card left-round\">",
+			"<article>",
 			"  <h5>Title</h5>",
-			"  <div>Complementary text</div>",
-			"</div>",
-			"",
-			""
+			"  <p>Some text here</p>",
+			"</article>"
 		],
 		"description": "BeerCss Card"
+	},
+	"BeerCss Card Round": {
+		"prefix": "beer-card-round",
+		"body": [
+			"<article class=\"round\">",
+			"  <h5>Title</h5>",
+			"  <p>Some text here</p>",
+			"</article>"
+		],
+		"description": "BeerCss Card"
+	},
+	"BeerCss Card Border": {
+		"prefix": "beer-card-border-round",
+		"body": [
+			"<article class='border round'>",
+				"<div class='row'>",
+					"<img class='circle large' src='/beer-and-woman.jpg'>",
+					"<div class='max'>",
+					"<h5>Title</h5>",
+					"<p>Some text here</p>",
+					"</div>",
+				"</div>",
+				"<nav>",
+					"<button class='round'>Button</button>",
+				"</nav>",
+			"</article>"
+		],
+		"description": "BeerCss Card Border Round"
 	},
 	"BeerCss Checkbox": {
 		"prefix": "beer-checkbox",

@@ -90,11 +90,34 @@
 	"BeerCss Card": {
 		"prefix": "beer-card",
 		"body": [
-			".card.left-round",
+			"article",
 			"  h5 Title",
-			"  div Complementary text"
+			"  p Some text here"
 		],
 		"description": "BeerCss Card"
+	},
+	"BeerCss Card Round": {
+		"prefix": "beer-card-round",
+		"body": [
+			"article.round",
+			"  h5 Title",
+			"  p Some text here"
+		],
+		"description": "BeerCss Card Round"
+	},
+	"BeerCss Card Border": {
+		"prefix": "beer-card-border-round",
+		"body": [
+			"article.border.round",
+			"  div.row",
+			"    img.circle.large src='/beer-and-woman.jpg'",
+			"    div.max",
+			"    h5 Title",
+			"    p Some text here",
+			"  nav",
+			"    button.round Button"
+		],
+		"description": "BeerCss Card Border Round"
 	},
 	"BeerCss Checkbox": {
 		"prefix": "beer-checkbox",
