@@ -69,13 +69,18 @@ vsce publish to publish the new VSIX file
 
 | Trigger         | Description    |
 | --------------- | -------------- |
-| beer-**button** | BeerCss Button |
+| beer-**button-border** | BeerCss Button |
+| beer-**button-icon**   | BeerCss Button |
+| beer-**button-image**  | BeerCss Button |
+| beer-**button-round**  | BeerCss Button |
 
 #### Card
 
-| Trigger       | Description  |
-| ------------- | ------------ |
-| beer-**card** | BeerCss Card |
+| Trigger                    | Description  |
+| -------------              | ------------ |
+| beer-**card**              | BeerCss Card |
+| beer-**card-border-round** | BeerCss Card |
+| beer-**card-card-round**   | BeerCss Card |
 
 #### Checkbox
 
