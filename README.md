@@ -40,8 +40,8 @@ Login Site: https://marketplace.visualstudio.com/
 User: Github login KicKerBNU
 Url Deploy: https://marketplace.visualstudio.com/manage/publishers/evertonbuzzi
 Only accept VSIX file format..
-vsce package to generate the VSIX file
-vsce publish to publish the new VSIX file
+To generate the VSIX file:      vsce package
+To publish the new VSIX file:   vsce publish 
 
 ### Beercss snippets
 

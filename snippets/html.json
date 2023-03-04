@@ -1,5 +1,22 @@
 {
-	"BeerCss Badge": {
+	"Beercss top app bars": {
+		"prefix": "beer-top-app-bar",
+		"body": [
+			"<header>",
+				"<nav>",
+					"<button class='circle transparent'>",
+						"<i>menu</i>",
+					"</button>",
+					"<h5 class='max center-align'>Title</h5>",
+					"<button class='circle transparent'>",
+						"<img class='responsive' src='https://firebasestorage.googleapis.com/v0/b/everton-17da5.appspot.com/o/favicon%20beercss.png?alt=media'>",
+					"</button>",
+				"</nav>",
+			"</header>"
+		],
+		"description": "beer-top-app-bars"
+	},
+	"Beercss badge": {
 		"prefix": "beer-badge",
 		"body": [
 			"<a>",
@@ -7,9 +24,9 @@
 			"  <i>search</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge"
+		"description": "Beercss Badge"
 	},
-	"BeerCss Badge Round": {
+	"Beercss badge round": {
 		"prefix": "beer-badge-round",
 		"body": [
 			"<a>",
@@ -17,9 +34,9 @@
 			"  <i>search</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Round"
+		"description": "Beercss Badge Round"
 	},
-	"BeerCss Badge Circle": {
+	"Beercss badge circle": {
 		"prefix": "beer-badge-circle",
 		"body": [
 			"<a>",
@@ -27,9 +44,9 @@
 			"  <i>notification</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Circle"
+		"description": "Beercss Badge Circle"
 	},
-	"BeerCss Badge Square": {
+	"Beercss badge square": {
 		"prefix": "beer-badge-square",
 		"body": [
 			"<a>",
@@ -37,9 +54,9 @@
 			"  <i>search</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Square"
+		"description": "Beercss Badge Square"
 	},
-	"BeerCss Badge Border": {
+	"Beercss badge border": {
 		"prefix": "beer-badge-border",
 		"body": [
 			"<a>",
@@ -47,9 +64,9 @@
 			"  <i>help_outline</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Border"
+		"description": "Beercss Badge Border"
 	},
-	"BeerCss Badge Top": {
+	"Beercss badge top": {
 		"prefix": "beer-badge-top",
 		"body": [
 			"<a>",
@@ -57,9 +74,9 @@
 			"  <i>notification</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Top"
+		"description": "Beercss Badge Top"
 	},
-	"BeerCss Badge Left Top": {
+	"Beercss badge left top": {
 		"prefix": "beer-badge-left-top",
 		"body": [
 			"<a>",
@@ -67,9 +84,9 @@
 			"  <i>apps</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Left Top"
+		"description": "Beercss Badge Left Top"
 	},
-	"BeerCss Badge Bottom": {
+	"Beercss badge bottom": {
 		"prefix": "beer-badge-bottom",
 		"body": [
 			"<a>",
@@ -77,9 +94,9 @@
 			"  <i>notification</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Bottom"
+		"description": "Beercss Badge Bottom"
 	},
-	"BeerCss Badge Round Top": {
+	"Beercss badge round top": {
 		"prefix": "beer-badge-round-top",
 		"body": [
 			"<a>",
@@ -87,16 +104,16 @@
 			"  <i>notification</i>",
 			"</a>"
 		],
-		"description": "BeerCss Badge Round Top"
+		"description": "Beercss Badge Round Top"
 	},
-	"BeerCss Button": {
+	"Beercss button": {
 		"prefix": "beer-button",
 		"body": [
 			"<button>Button</button>"
 		],
-		"description": "BeerCss Button"
+		"description": "Beercss Button"
 	},
-	"BeerCss Button Icon": {
+	"Beercss button icon": {
 		"prefix": "beer-button-icon",
 		"body": [
 			"<button>",
@@ -104,9 +121,9 @@
 				"<span>Button</span>",
 			"</button>"
 		],
-		"description": "BeerCss Button Icon"
+		"description": "Beercss Button Icon"
 	},
-	"BeerCss Button Image": {
+	"Beercss button image": {
 		"prefix": "beer-button-image",
 		"body": [
 			"<button>",
@@ -114,23 +131,23 @@
 				"<span>Button</span>",
 			"</button>"
 		],
-		"description": "BeerCss Button Image"
+		"description": "Beercss Button Image"
 	},
-	"BeerCss Button Round": {
+	"Beercss button round": {
 		"prefix": "beer-button-round",
 		"body": [
 			"<button class='round'>Button</button>"
 		],
-		"description": "BeerCss Button Round"
+		"description": "Beercss Button Round"
 	},
-	"BeerCss Button Border": {
+	"Beercss button border": {
 		"prefix": "beer-button-border",
 		"body": [
 			"<button class='border'>Button</button>"
 		],
-		"description": "BeerCss Button Border"
+		"description": "Beercss Button Border"
 	},
-	"BeerCss Card": {
+	"Beercss card": {
 		"prefix": "beer-card",
 		"body": [
 			"<article>",
@@ -138,9 +155,9 @@
 				"<p>Some text here</p>",
 			"</article>"
 		],
-		"description": "BeerCss Card"
+		"description": "Beercss Card"
 	},
-	"BeerCss Card Round": {
+	"Beercss card round": {
 		"prefix": "beer-card-round",
 		"body": [
 			"<article class='round'>",
@@ -148,9 +165,9 @@
 				"<p>Some text here</p>",
 			"</article>"
 		],
-		"description": "BeerCss Card Round"
+		"description": "Beercss Card Round"
 	},
-	"BeerCss Card Border": {
+	"Beercss card border": {
 		"prefix": "beer-card-border-round",
 		"body": [
 			"<article class='border round'>",
@@ -166,9 +183,9 @@
 				"</nav>",
 			"</article>"
 		],
-		"description": "BeerCss Card Border Round"
+		"description": "Beercss Card Border Round"
 	},
-	"BeerCss Checkbox": {
+	"Beercss checkbox": {
 		"prefix": "beer-checkbox",
 		"body": [
 			"<div class=\"field middle-align\">",
@@ -188,16 +205,16 @@
 			"  </nav>",
 			"</div>"
 		],
-		"description": "BeerCss Checkbox"
+		"description": "Beercss Checkbox"
 	},
-	"BeerCss Chip": {
+	"Beercss chip": {
 		"prefix": "beer-chip",
 		"body": [
 			"<a class=\"chip\">Chip</a>"
 		],
-		"description": "BeerCss Chip"
+		"description": "Beercss Chip"
 	},
-	"BeerCss Dropdown": {
+	"Beercss dropdown": {
 		"prefix": "beer-dropdown",
 		"body": [
 			"<button data-ui=\"#dropdown1_\">",
@@ -227,27 +244,27 @@
 			"  </div>",
 			"</button>"
 		],
-		"description": "BeerCss Dropdown"
+		"description": "Beercss Dropdown"
 	},
-	"BeerCss Icon": {
+	"Beercss icon": {
 		"prefix": "beer-icon",
 		"body": [
 			"<nav class=\"wrap\">",
 			"  <i class=\"small\">home</i>",
 			"</nav>"
 		],
-		"description": "BeerCss Icon"
+		"description": "Beercss Icon"
 	},
-	"BeerCss Input": {
+	"Beercss input": {
 		"prefix": "beer-input",
 		"body": [
 			"<div class=\"field\">",
 			"  <input type=\"text\">",
 			"</div>"
 		],
-		"description": "BeerCss Input"
+		"description": "Beercss Input"
 	},
-	"BeerCss List": {
+	"Beercss list": {
 		"prefix": "beer-list",
 		"body": [
 			"<div class=\"row no-wrap middle-align\">",
@@ -268,16 +285,16 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "BeerCss List"
+		"description": "Beercss List"
 	},
-	"BeerCss Loader": {
+	"Beercss loader": {
 		"prefix": "beer-loader",
 		"body": [
 			"<a class=\"loader small\"></a>"
 		],
-		"description": "BeerCss Loader"
+		"description": "Beercss Loader"
 	},
-	"BeerCss Modal": {
+	"Beercss modal": {
 		"prefix": "beer-modal",
 		"body": [
 			"<div id=\"modal_\" class=\"modal\">",
@@ -293,9 +310,9 @@
 			"  </nav>",
 			"</div>"
 		],
-		"description": "BeerCss Modal"
+		"description": "Beercss Modal"
 	},
-	"BeerCss Nav": {
+	"Beercss nav": {
 		"prefix": "beer-nav",
 		"body": [
 			"<nav>",
@@ -307,9 +324,9 @@
 			"  </a>",
 			"</nav>"
 		],
-		"description": "BeerCss Nav"
+		"description": "Beercss Nav"
 	},
-	"BeerCss Radio": {
+	"Beercss Radio": {
 		"prefix": "beer-radio",
 		"body": [
 			"<div class=\"field middle-align\">",
@@ -329,18 +346,18 @@
 			"  </nav>",
 			"</div>"
 		],
-		"description": "BeerCss Radio"
+		"description": "Beercss Radio"
 	},
-	"BeerCss Row": {
+	"Beercss Row": {
 		"prefix": "beer-row",
 		"body": [
 			"<div class=\"row\">",
 			"  <div class=\"col s12\">1</div>",
 			"</div>"
 		],
-		"description": "BeerCss Row"
+		"description": "Beercss Row"
 	},
-	"BeerCss Select": {
+	"Beercss Select": {
 		"prefix": "beer-select",
 		"body": [
 			"<div class=\"field sufix\">",
@@ -352,9 +369,9 @@
 			"  <i>arrow_drop_down</i>",
 			"</div>"
 		],
-		"description": "BeerCss Select"
+		"description": "Beercss Select"
 	},
-	"BeerCss Switch": {
+	"Beercss Switch": {
 		"prefix": "beer-switch",
 		"body": [
 			"<div class=\"field middle-align\">",
@@ -374,9 +391,9 @@
 			"  </nav>",
 			"</div>"
 		],
-		"description": "BeerCss Switch"
+		"description": "Beercss Switch"
 	},
-	"BeerCss Table": {
+	"Beercss Table": {
 		"prefix": "beer-table",
 		"body": [
 			"<table class=\"border\">",
@@ -450,9 +467,9 @@
 			"  </tbody>",
 			"</table>"
 		],
-		"description": "BeerCss Table"
+		"description": "Beercss Table"
 	},
-	"BeerCss Tab": {
+	"Beercss Tab": {
 		"prefix": "beer-tab",
 		"body": [
 			"<div>",
@@ -472,18 +489,18 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "BeerCss Tab"
+		"description": "Beercss Tab"
 	},
-	"BeerCss Textarea": {
+	"Beercss Textarea": {
 		"prefix": "beer-textarea",
 		"body": [
 			"<div class=\"field textarea\">",
 			"  <textarea></textarea>",
 			"</div>"
 		],
-		"description": "BeerCss Textarea"
+		"description": "Beercss Textarea"
 	},
-	"BeerCss Toast": {
+	"Beercss Toast": {
 		"prefix": "beer-toast",
 		"body": [
 			"<div class=\"toast pink white-text\">",
@@ -491,6 +508,6 @@
 			"  <span>Complementary text</span>",
 			"</div>"
 		],
-		"description": "BeerCss Toast"
+		"description": "Beercss Toast"
 	}
 }
