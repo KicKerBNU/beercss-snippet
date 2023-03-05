@@ -1,4 +1,23 @@
 {
+	"Beercss bottom app bars": {
+		"prefix": "beer-bottom-app-bar",
+		"body": [
+			"footer",
+				"nav",
+					"button.circle.transparent",
+						"i check_box_filled",
+					"button.circle.transparent",
+						"i brush",
+					"button.circle.transparent",
+						"i mic",
+					"button.circle.transparent",
+						"i image",
+					"div.max",
+					"button.square.round.extra.primary",
+						"i add"
+		],
+		"description": "Beercss Bottom App Bar"
+	},
 	"Beercss top app bars": {
 		"prefix": "beer-top-app-bar",
 		"body": [
@@ -10,7 +29,7 @@
 					"button.circle.transparent",
 						"img.responsive (src='https://firebasestorage.googleapis.com/v0/b/everton-17da5.appspot.com/o/favicon%20beercss.png?alt=media')"
 		],
-		"description": "beer-top-app-bars"
+		"description": "Beercss Top App Bar"
 	},
 	"Beercss Badge": {
 		"prefix": "beer-badge",
@@ -19,7 +38,7 @@
 			"  span.badge New",
 			"  i search"
 		],
-		"description": "Badge Class"
+		"description": "Beercss Badge Class"
 	},
 	"Beercss Badge Round": {
 		"prefix": "beer-badge-round",
@@ -28,7 +47,7 @@
 			"  span.badge.round New",
 			"  i search"
 		],
-		"description": "Badge Round Class"
+		"description": "Beercss Badge Round Class"
 	},
 	"Beercss Badge Circle": {
 		"prefix": "beer-badge-circle",
@@ -37,7 +56,7 @@
 			"  span.badge.circle 10",
 			"  i notification"
 		],
-		"description": "Badge Circle Class"
+		"description": "Beercss Badge Circle Class"
 	},
 	"Beercss Badge Square": {
 		"prefix": "beer-badge-square",
@@ -46,7 +65,7 @@
 			"  span.badge.square 10",
 			"  i search"
 		],
-		"description": "Badge Square Class"
+		"description": "Beercss Badge Square Class"
 	},
 	"Beercss Badge Border": {
 		"prefix": "beer-badge-border",
@@ -55,7 +74,7 @@
 			"  span.badge.border New",
 			"  i help_outline"
 		],
-		"description": "Badge Border Class"
+		"description": "Beercss Badge Border Class"
 	},
 	"Beercss Badge Top": {
 		"prefix": "beer-badge-top",
@@ -64,7 +83,7 @@
 			"  span.badge.top New",
 			"  i notification"
 		],
-		"description": "Badge Top Class"
+		"description": "Beercss Badge Top Class"
 	},
 	"Beercss Badge Left Top": {
 		"prefix": "beer-badge-left-top",
@@ -73,7 +92,7 @@
 			"  span.badge.left.top New",
 			"  i apps"
 		],
-		"description": "Badge Left Top Class"
+		"description": "Beercss Badge Left Top Class"
 	},
 	"Beercss Badge Bottom": {
 		"prefix": "beer-badge-bottom",
@@ -82,7 +101,7 @@
 			"  span.badge.bottom New",
 			"  i notification"
 		],
-		"description": "Badge Bottom Class"
+		"description": "Beercss Badge Bottom Class"
 	},
 	"Beercss Badge Round Top": {
 		"prefix": "beer-badge-round-top",
@@ -91,14 +110,14 @@
 			"  span.badge.top.round New",
 			"  i apps"
 		],
-		"description": "Badge Round Top Class"
+		"description": "Beercss Badge Round Top Class"
 	},
 	"Beercss Button ": {
 		"prefix": "beer-button",
 		"body": [
 			"button Button"
 		],
-		"description": "Badge Class"
+		"description": "Beercss Badge Class"
 	},
 	"Beercss Card": {
 		"prefix": "beer-card",
@@ -107,7 +126,7 @@
 			"  h5 Title",
 			"  p Some text here"
 		],
-		"description": "Beercss Card"
+		"description": "Beercss Beercss Card"
 	},
 	"Beercss Card Round": {
 		"prefix": "beer-card-round",
@@ -263,13 +282,16 @@
 		],
 		"description": "Beercss Radio"
 	},
-	"Beercss Row": {
-		"prefix": "beer-row",
+	"Beercss Grid": {
+		"prefix": "beer-grid",
 		"body": [
-			".row",
-			"  .col.s12 1"
+			"div.grid",
+ 				"div.s12.m6.l3 12/6/3",
+  				"div.s12.m6.l3 12/6/3",
+  				"div.s12.m6.l3 12/6/3",
+  				"div.s12.m6.l3 12/6/3"
 		],
-		"description": "Beercss Row"
+		"description": "Beercss Grid"
 	},
 	"Beercss Select": {
 		"prefix": "beer-select",
