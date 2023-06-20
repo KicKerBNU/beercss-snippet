@@ -342,7 +342,7 @@
 		"description": "Beercss Fab Extended"
 	},
 	"Beercss fixed footer": {
-		"prefix": "beer-fixed-header",
+		"prefix": "beer-fixed-footer",
 		"body": [
 			"<article class='small scroll'>",
 				"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
@@ -382,18 +382,9 @@
 	"Beercss headline": {
 		"prefix": "beer-headline",
 		"body": [
-			"<h4>Display</h4>"
+			"<h4>Headline</h4>"
 		],
 		"description": "Beercss Headline"
-	},
-	"Beercss icon button": {
-		"prefix": "beer-icon-button",
-		"body": [
-			"<button class='transparent square'>",
-				"<i>add</i>",
-			"</button>"
-		],
-		"description": "Beercss Icon Button"
 	},
 	"Beercss icon": {
 		"prefix": "beer-icon",
@@ -403,6 +394,15 @@
 			"</nav>"
 		],
 		"description": "Beercss Icon"
+	},
+	"Beercss icon button": {
+		"prefix": "beer-icon-button",
+		"body": [
+			"<button class='transparent square'>",
+				"<i>add</i>",
+			"</button>"
+		],
+		"description": "Beercss Icon Button"
 	},
 	"Beercss image": {
 		"prefix": "beer-image",
