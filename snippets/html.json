@@ -480,37 +480,57 @@
 		],
 		"description": "Beercss Loader"
 	},
-	"Beercss dropdown": {
-		"prefix": "beer-dropdown",
+	"Beercss image": {
+		"prefix": "beer-image",
 		"body": [
-			"<button data-ui='#dropdown1_'>",
-			"  <span>This is a large button</span>",
-			"  <i>arrow_drop_down</i>",
-			"  <div id='dropdown1_' data-ui='#dropdown1_' class='dropdown'>",
-			"    <a>Title</a>",
-			"    <a>",
-			"      <div>Title</div>",
-			"      <label>Complementary text</label>",
-			"    </a>",
-			"    <a class='row no-wrap middle-align'>",
-			"      <div class='col min'>",
-			"        <i>home</i>",
-			"      </div>",
-			"      <div class='col'>Title</div>",
-			"    </a>",
-			"    <a class='row no-wrap middle-align'>",
-			"      <div class='col min'>",
-			"        <i>home</i>",
-			"      </div>",
-			"      <div class='col'>",
-			"        <div>Title</div>",
-			"        <label>Complementary text</label>",
-			"      </div>",
-			"    </a>",
-			"  </div>",
+			"<img class='circle tiny' src='/beer-and-woman.jpg'>"
+		],
+		"description": "Beercss Image"
+	},
+	"Beercss video": {
+		"prefix": "beer-video",
+		"body": [
+			"<video class='circle tiny'>",
+				"<source src='/dance.mp4' type='video/mp4'>",
+			"</video>"
+		],
+		"description": "Beercss Video"
+	},
+	"Beercss svg": {
+		"prefix": "beer-svg",
+		"body": [
+			"<svg viewBox='450 0 900 900' class='circle tiny primary'>",
+				"<rect fill='#ff7700' width='1600' height='900'></rect>",
+				"<polygon fill='#cc0000' points='957 450 539 900 1396 900'></polygon>",
+				"<polygon fill='#aa0000' points='957 450 872.9 900 1396 900'></polygon>",
+				"<polygon fill='#d6002b' points='-60 900 398 662 816 900'></polygon>",
+				"<polygon fill='#b10022' points='337 900 398 662 816 900'></polygon>",
+				"<polygon fill='#d9004b' points='1203 546 1552 900 876 900'></polygon>",
+				"<polygon fill='#b2003d' points='1203 546 1552 900 1162 900'></polygon>",
+				"<polygon fill='#d3006c' points='641 695 886 900 367 900'></polygon>",
+				"<polygon fill='#ac0057' points='587 900 641 695 886 900'></polygon>",
+				"<polygon fill='#c4008c' points='1710 900 1401 632 1096 900'></polygon>",
+				"<polygon fill='#9e0071' points='1710 900 1401 632 1365 900'></polygon>",
+				"<polygon fill='#aa00aa' points='1210 900 971 687 725 900'></polygon>",
+				"<polygon fill='#880088' points='943 900 1210 900 971 687'></polygon>",
+			"</svg>"
+		],
+		"description": "Beercss SVG"
+	},
+	"Beercss menu": {
+		"prefix": "beer-menu",
+		"body": [
+			"<button>",
+				"<span>Default</span>",
+				"<i>arrow_drop_down</i>",
+				"<menu>",
+					"<a>Item 1</a>",
+					"<a>Item 2</a>",
+					"<a>Item 3</a>",
+				"</menu>",
 			"</button>"
 		],
-		"description": "Beercss Dropdown"
+		"description": "Beercss Menu"
 	},
 	"Beercss nav": {
 		"prefix": "beer-nav",
@@ -525,6 +545,28 @@
 			"</nav>"
 		],
 		"description": "Beercss Nav"
+	},
+	"Beercss Radio": {
+		"prefix": "beer-radio",
+		"body": [
+			"<div class='field middle-align'>",
+			"  <nav>",
+			"    <label class='radio'>",
+			"      <input type='radio' name='radio'>",
+			"      <span>Item 1</span>",
+			"    </label>",
+			"    <label class='radio'>",
+			"      <input type='radio' name='radio'>",
+			"      <span>Item 2</span>",
+			"    </label>",
+			"    <label class='radio'>",
+			"      <input type='radio' name='radio'>",
+			"      <span>Item 3</span>",
+			"    </label>",
+			"  </nav>",
+			"</div>"
+		],
+		"description": "Beercss Radio"
 	},
 	"Beercss Select": {
 		"prefix": "beer-select",
@@ -678,5 +720,29 @@
 			"</div>"
 		],
 		"description": "Beercss Toast"
+	},
+	"Beercss Tooltip": {
+		"prefix": "beer-tooltip",
+		"body": [
+			"<button class='chip round'>",
+				"<span>Plain tooltip</span>",
+				"<div class='tooltip'>Tooltip</div>",
+			"</button>"
+		],
+		"description": "Beercss Tooltip"
+	},
+	"Beercss Display": {
+		"prefix": "beer-display",
+		"body": [
+			"<h1>Display</h1>"
+		],
+		"description": "Beercss Display"
+	},
+	"Beercss Headline": {
+		"prefix": "beer-headline",
+		"body": [
+			"<h4>Display</h4>"
+		],
+		"description": "Beercss Headline"
 	}
 }
