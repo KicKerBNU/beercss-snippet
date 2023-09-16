@@ -84,12 +84,16 @@
   },
   "Beercss button icon": {
     "prefix": "beer-button-icon",
-    "body": ["button", "i home", "span Button"],
+    "body": ["button", " i home", " span Button"],
     "description": "Beercss Button Icon"
   },
   "Beercss button image": {
     "prefix": "beer-button-image",
-    "body": ["button", "img.responsive(src='/favicon.png')", "span Button"],
+    "body": [
+      "button",
+      "  img.responsive(src='/https://firebasestorage.googleapis.com/v0/b/beer-css.appspot.com/o/beer-and-woman.jpg?alt=media')",
+      "  span Button"
+    ],
     "description": "Beercss Button Image"
   },
   "Beercss button round": {
@@ -117,10 +121,10 @@
     "body": [
       "article.border.round",
       "  div.row",
-      "    img.circle.large src='/beer-and-woman.jpg'",
+      "    img.circle.large(src='https://firebasestorage.googleapis.com/v0/b/beer-css.appspot.com/o/beer-and-woman.jpg?alt=media')",
       "    div.max",
-      "    h5 Title",
-      "    p Some text here",
+      "     h5 Title",
+      "     p Some text here",
       "  nav",
       "    button.round Button"
     ],
@@ -156,12 +160,12 @@
   "Beercss dialog": {
     "prefix": "beer-dialog",
     "body": [
-      "dialog",
-      "h5 Default",
-      "div Some text here",
-      "nav.right-align",
-      "button.border Cancel",
-      "button Confirm"
+      "dialog.active",
+      " h5 Default",
+      " div Some text here",
+      " nav.right-align",
+      "   button.border Cancel",
+      "   button Confirm"
     ],
     "description": "Beercss Dialog"
   },
@@ -170,14 +174,9 @@
     "body": ["h1 Display"],
     "description": "Beercss Display"
   },
-  "Beercss direction horizontal": {
-    "prefix": "beer-direction-horizontal",
-    "body": ["button", "i home", "span Button"],
-    "description": "Beercss Direction Horizontal"
-  },
   "Beercss direction vertical": {
     "prefix": "beer-direction-vertical",
-    "body": ["button.vertical", "i home", "span Button"],
+    "body": ["button.vertical", " i home", "  span Button"],
     "description": "Beercss Direction Vertical"
   },
   "Beercss divider": {
@@ -189,13 +188,13 @@
     "prefix": "beer-empty-states",
     "body": [
       "div.fill.medium-height.middle-align.center-align",
-      "div.center-align",
-      "i.extra mail",
-      "h5 You have no new messages",
-      "p Click the button to start a conversation",
-      "div.space",
-      "nav.center-align",
-      "button Send a message"
+      " div.center-align",
+      "   i.extra mail",
+      "   h5 You have no new messages",
+      "   p Click the button to start a conversation",
+      "   div.space",
+      "   nav.center-align",
+      "     button Send a message"
     ],
     "description": "Beercss Empty States"
   },
@@ -203,29 +202,29 @@
     "prefix": "beer-expansions",
     "body": [
       "details",
-      "summary With icon",
-      "p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      " summary With icon",
+      " p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     ],
     "description": "Beercss Expansions"
   },
   "Beercss fab default": {
     "prefix": "beer-fab",
-    "body": ["button.square.extra", "i add"],
+    "body": ["button.square.extra", " i add"],
     "description": "Beercss Fab Default"
   },
   "Beercss fab extended": {
     "prefix": "beer-fab-extended",
-    "body": ["button.extend.square", "i add", "span Button"],
+    "body": ["button.extend.square", "  i add", " span Button"],
     "description": "Beercss Fab Extended"
   },
   "Beercss fixed footer": {
     "prefix": "beer-fixed-footer",
     "body": [
       "article.small.scroll",
-      "p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "footer.fixed",
-      "h5.no-margin Fixed footer"
+      " p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      " p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      " footer.fixed",
+      "   h5.no-margin Fixed footer"
     ],
     "description": "Beercss Fixed Footer"
   },
@@ -233,21 +232,21 @@
     "prefix": "beer-fixed-header",
     "body": [
       "article.small.scroll",
-      "header.fixed",
-      "h5.no-margin Fixed header",
-      "p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      " header.fixed",
+      "   h5.no-margin Fixed header",
+      "   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupILayoutt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ],
     "description": "Beercss Fixed Header"
   },
   "Beercss grid": {
     "prefix": "beer-grid",
     "body": [
-      "div.grid",
-      "div.s12.m6.l3 12/6/3",
-      "div.s12.m6.l3 12/6/3",
-      "div.s12.m6.l3 12/6/3",
-      "div.s12.m6.l3 12/6/3"
+      ".grid",
+      " .s12.m6.l3 12/6/3",
+      " .s12.m6.l3 12/6/3",
+      " .s12.m6.l3 12/6/3",
+      " .s12.m6.l3 12/6/3"
     ],
     "description": "Beercss Grid"
   },
@@ -263,12 +262,14 @@
   },
   "Beercss icon button": {
     "prefix": "beer-icon-button",
-    "body": ["button.transparent.square", "i add"],
+    "body": ["button.transparent.square", " i add"],
     "description": "Beercss Icon Button"
   },
   "Beercss image": {
     "prefix": "beer-image",
-    "body": ["img.circle.tiny(src='/beer-and-woman.jpg')"],
+    "body": [
+      "img.circle.tiny(src='https://firebasestorage.googleapis.com/v0/b/beer-css.appspot.com/o/beer-and-woman.jpg?alt=media')"
+    ],
     "description": "Beercss Image"
   },
   "Beercss input": {
@@ -279,17 +280,11 @@
   "Beercss list": {
     "prefix": "beer-list",
     "body": [
-      ".row.no-wrap.middle-align",
-      "  .col.min",
-      "    i.light-green-text check_circle",
-      "  .col",
-      "    div Title",
-      "    label Complementary text",
-      "  .col.min",
-      "    nav",
-      "      button.none Button",
-      "      button.none",
-      "        i more_vert"
+      ".row",
+      " i.light-green-text check_circle",
+      " .max Some text here",
+      " a",
+      "  i edit"
     ],
     "description": "Beercss List"
   },
@@ -307,12 +302,12 @@
     "prefix": "beer-menu",
     "body": [
       "button",
-      "span Default",
-      "i arrow_drop_down",
-      "menu",
-      "a Item 1",
-      "a Item 2",
-      "a Item 3"
+      " span Default",
+      " i arrow_drop_down",
+      " menu",
+      "   a Item 1",
+      "   a Item 2",
+      "   a Item 3"
     ],
     "description": "Beercss Menu"
   },
@@ -342,12 +337,12 @@
     "prefix": "beer-segmented-button",
     "body": [
       "nav.no-space",
-      "button.border.left-round",
-      "span Button",
-      "button.border.no-round",
-      "span Button",
-      "button.border.right-round.fill",
-      "span Button"
+      " button.border.left-round",
+      "   span Button",
+      " button.border.no-round",
+      "   span Button",
+      " button.border.right-round.fill",
+      "   span Button"
     ],
     "description": "Beercss Segmented Button"
   },
@@ -380,19 +375,19 @@
     "prefix": "beer-svg",
     "body": [
       "svg(viewBox='450 0 900 900').circle.tiny.primary",
-      "rect(fill='#ff7700' width='1600' height='900')",
-      "polygon(fill='#cc0000' points='957 450 539 900 1396 900')",
-      "polygon(fill='#aa0000' points='957 450 872.9 900 1396 900')",
-      "polygon(fill='#d6002b' points='-60 900 398 662 816 900')",
-      "polygon(fill='#b10022' points='337 900 398 662 816 900')",
-      "polygon(fill='#d9004b' points='1203 546 1552 900 876 900')",
-      "polygon(fill='#b2003d' points='1203 546 1552 900 1162 900')",
-      "polygon(fill='#d3006c' points='641 695 886 900 367 900')",
-      "polygon(fill='#ac0057' points='587 900 641 695 886 900')",
-      "polygon(fill='#c4008c' points='1710 900 1401 632 1096 900')",
-      "polygon(fill='#9e0071' points='1710 900 1401 632 1365 900')",
-      "polygon(fill='#aa00aa' points='1210 900 971 687 725 900')",
-      "polygon(fill='#880088' points='943 900 1210 900 971 687')"
+      " rect(fill='#ff7700' width='1600' height='900')",
+      " polygon(fill='#cc0000' points='957 450 539 900 1396 900')",
+      " polygon(fill='#aa0000' points='957 450 872.9 900 1396 900')",
+      " polygon(fill='#d6002b' points='-60 900 398 662 816 900')",
+      " polygon(fill='#b10022' points='337 900 398 662 816 900')",
+      " polygon(fill='#d9004b' points='1203 546 1552 900 876 900')",
+      " polygon(fill='#b2003d' points='1203 546 1552 900 1162 900')",
+      " polygon(fill='#d3006c' points='641 695 886 900 367 900')",
+      " polygon(fill='#ac0057' points='587 900 641 695 886 900')",
+      " polygon(fill='#c4008c' points='1710 900 1401 632 1096 900')",
+      " polygon(fill='#9e0071' points='1710 900 1401 632 1365 900')",
+      " polygon(fill='#aa00aa' points='1210 900 971 687 725 900')",
+      " polygon(fill='#880088' points='943 900 1210 900 971 687')"
     ],
     "description": "Beercss SVG"
   },
@@ -493,19 +488,19 @@
     "prefix": "beer-top-app-bar",
     "body": [
       "header",
-      "nav",
-      "button.circle.transparent'>",
-      "i menu",
-      "h5.max.center-align Title",
-      "button.circle.transparent",
-      "img.responsive (src='https://firebasestorage.googleapis.com/v0/b/everton-17da5.appspot.com/o/favicon%20beercss.png?alt=media')"
+      " nav",
+      "   button.circle.transparent",
+      "     i menu",
+      "   h5.max.center-align Title",
+      "   button.circle.transparent",
+      "     img.responsive(src='https://firebasestorage.googleapis.com/v0/b/everton-17da5.appspot.com/o/favicon%20beercss.png?alt=media')"
     ],
     "description": "Beercss Top App Bar"
   },
   "Beercss snackbar": {
     "prefix": "beer-snackbar",
     "body": [
-      "div.snackbar.pink.white-text",
+      "div.snackbar.pink.white-text.active",
       "  i error",
       "  span Complementary text"
     ],
@@ -513,12 +508,16 @@
   },
   "Beercss tooltip": {
     "prefix": "beer-tooltip",
-    "body": ["button.chip round", "span Plain tooltip", "div.tooltip Tooltip"],
+    "body": [
+      "button.chip.round",
+      " span Plain tooltip",
+      " div.tooltip Tooltip text"
+    ],
     "description": "Beercss Tooltip"
   },
   "Beercss video": {
     "prefix": "beer-video",
-    "body": ["video.circle.tiny", "source(src='/dance.mp4' type='video/mp4')"],
+    "body": ["video.circle.tiny", " source(src='/dance.mp4' type='video/mp4')"],
     "description": "Beercss Video"
   }
 }

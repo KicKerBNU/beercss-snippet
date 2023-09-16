@@ -251,11 +251,6 @@
     "body": ["<h1>Display</h1>"],
     "description": "Beercss Display"
   },
-  "Beercss direction horizontal": {
-    "prefix": "beer-direction-horizontal",
-    "body": ["<button>", "<i>home</i>", "<span>Button</span>", "</button>"],
-    "description": "Beercss Direction Horizontal"
-  },
   "Beercss direction vertical": {
     "prefix": "beer-direction-vertical",
     "body": [
