@@ -1,3 +1,10 @@
+<p align="center">
+    <a href="https://www.beercss.com" target="_blank" rel="noopener noreferrer"><img src="https://www.beercss.com/logo.png" alt="Beer CSS logo"></a>
+    <img src="https://img.shields.io/badge/beercss-v3.3.6-red">
+    <a href="https://github.com/beercss/beercss/blob/main/LICENSE"><img src="https://img.shields.io/github/license/beercss/beercss" alt="License"></a>
+
+</p>
+
 # Beercss snippet for Visual studio code
 
 Visual studio code plugin containing Beercss snippet. This plugin works in Html, Vue Html and Pug(Jade).
